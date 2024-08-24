@@ -13,8 +13,16 @@ export interface Comment {
     text:string;
 }
 
+export interface CommentMutation {
+    news_id:number;
+    author:string | "anonymous";
+    text:string;
+}
+
 export interface NewMutation {
     title:string;
     content:string;
     image:string | null;
 }
+
+export type NewsCheckResult = { id: number }[];
