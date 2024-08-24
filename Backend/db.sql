@@ -20,3 +20,5 @@ INSERT INTO news (title, content, image_url, created_at) VALUES ('Новость
 INSERT INTO news (title, content, image_url, created_at) VALUES ('Новость про машины', 'что то тут булет написано ', 'photo.jpg', '2024-08-24 13:56:33');
 INSERT INTO news (title, content, image_url, created_at) VALUES ('Новость про готовку', 'что то тут булет написано ', 'photo.jpg', '2024-08-24 13:56:33');
 INSERT INTO comments (news_id, author, text) VALUES (1, 'steve', 'coll post');
+INSERT INTO comments (news_id, author, text) VALUES (3, 'log', ' post');
+INSERT INTO comments (news_id, author, text) VALUES (6, 'nick', 'coll post');

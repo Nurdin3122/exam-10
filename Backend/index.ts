@@ -2,13 +2,14 @@ import express from 'express';
 import mysqldb from "./MySqlDb";
 import newsRouter from "./Routers/NewsRouter";
 import commentsRouter from "./Routers/commentsRouter";
+import cors from "cors"
 import multer from "multer";
 
 const app = express();
-const port = 8038;
+const port = 8083;
 const upload = multer();
 
-
+app.use(cors());
 app.use(upload.none());
 app.use(express.json());
 

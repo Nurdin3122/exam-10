@@ -1,0 +1,7 @@
+.block-img {
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
